@@ -4,6 +4,4 @@ RUN apk update && \
         docker \
         postgresql-dev \
         gcc \
-        python3-dev \
-        musl-dev \
-    && apk del .build-deps
+        musl-dev
